@@ -1,0 +1,1 @@
+<script setup>import AdminSidebar from '../components/AdminSidebar.vue';import AdminHeader from '../components/AdminHeader.vue'</script><template><div class="app-shell"><AdminSidebar/><div class="workspace"><AdminHeader/><main class="content"><RouterView/></main></div></div></template>
